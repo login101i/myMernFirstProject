@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom'
 
 
 import './UserItem.css'
-import Avatar from '../../shared/UIElements/Avatar'
-import Card from '../../shared/UIElements/Card'
+import Avatar from '../../shared/Components/UIElements/Avatar'
+import Card from '../../shared/Components/UIElements/Card'
 
 const UserItem = ({ id, name, image, alt, placeCount }) => {
     return (
